@@ -1,0 +1,97 @@
+.card-title {
+    font-weight: 600;
+}
+
+.deznav .menu-tabs {
+    padding: 15px 10px 15px 10px !important;
+}
+
+.deznav .menu-tabs li a {
+    padding: 15px 20px !important;
+    border-radius: 6px;
+}
+
+.nav-link p {
+    margin-top: 5px !important;
+    margin-bottom: 0 !important;
+    font-size: 6px;
+}
+
+.col-padding {
+    padding: 0;
+}
+
+.card_height {
+    height: calc(100% - 178px);
+}
+
+.card-border {
+    border-bottom: 0;
+}
+
+.card-tt {
+    font-weight: 600; 
+    margin-top: 5px;
+}
+
+.card-content {
+    font-weight: 500; 
+    font-size: 24px; 
+    margin-top: 12px; 
+    margin-bottom: 0;
+    color: #3a7afe;
+}
+
+.dataTables_info, .dataTables_length, .dataTables_filter {
+    display: none;
+}
+
+.header-left input {
+    min-width: 200px;
+}
+
+.light.btn-primary {
+    width: 48%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.light1.btn-primary1 {
+    width: 48%;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #ffecec;
+    border-color: #ffecec;
+    color: #fe3a3a;
+}
+
+.light1.btn-primary1:hover {
+    background-color: #fe3a3a;
+    border-color: #fe3a3a;
+    color: #fff;
+}
+
+.mt-4, .my-4 {
+    margin-top: 0 !important;
+}
+
+.form-group1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 3000px) { 
+    .deznav {
+        width: 5rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    .deznav {
+        width: 3.75rem !important;
+    }
+
+    .hamburger {
+        display: inline-block !important;
+    }
+}

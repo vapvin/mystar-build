@@ -1,0 +1,1 @@
+web: gunicorn mystar.wsgi --preload --log-file -
